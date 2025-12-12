@@ -35,10 +35,14 @@ public class ArcadeRetroGamesApplication {
 				System.out.println("Inserisci il livello di difficoltà del gioco:");
 				int levelDiffculty = scanner.nextInt();
 				scanner.nextLine();
-
-				
 			
+				gameService.insertGame(name, releaseDate, levelDiffculty);
 				
+			}
+			
+			else if(choose.equals("2")) {
+				
+				gameService.printGamesList();
 			}
 			
 			
