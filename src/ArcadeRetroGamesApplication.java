@@ -51,13 +51,17 @@ public class ArcadeRetroGamesApplication {
 				gameService.searchGames(name);
 			}
 			
+			else if (choose.equals("4")) {
+				System.out.println("I giochi con difficolta 4-5 sono:");
+				gameService.printDiffiultGames();
+			}
 			
 		}
 		
 		
 		
 		
-		
+		scanner.close();
 		
 		
 	}

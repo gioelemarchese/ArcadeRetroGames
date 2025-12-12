@@ -29,6 +29,14 @@ public class GameService {
 		}
 	}
 	
+	public void printDiffiultGames() {
+		for (int i = 0; i < this.games.size(); i++) {
+			
+			if(this.games.get(i).getLevelDifficulty() >= 4) {
+				System.out.println(this.games.get(i).getName());
+			}
+		}
+	}
 	
 	
 	
