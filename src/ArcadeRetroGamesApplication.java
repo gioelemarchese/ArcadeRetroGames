@@ -45,6 +45,11 @@ public class ArcadeRetroGamesApplication {
 				gameService.printGamesList();
 			}
 			
+			else if (choose.equals("3")) {
+				System.out.println("Quale gioco vuoi cercare?");
+				String name = scanner.nextLine();
+				gameService.searchGames(name);
+			}
 			
 			
 		}

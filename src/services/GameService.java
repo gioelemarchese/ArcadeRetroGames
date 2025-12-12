@@ -19,4 +19,17 @@ public class GameService {
 			System.out.println(this.games.get(i));
 		}
 	}
+	
+	public void searchGames (String search) {
+		for (int i = 0; i < this.games.size(); i++) {
+			if(this.games.get(i).getName().contains(search)) {
+				
+				System.out.println(this.games.get(i).getName());
+			}
+		}
+	}
+	
+	
+	
+	
 }	
