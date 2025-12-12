@@ -55,6 +55,9 @@ public class ArcadeRetroGamesApplication {
 				System.out.println("I giochi con difficolta 4-5 sono:");
 				gameService.printDiffiultGames();
 			}
+			else {
+				System.out.println("Scelta errata, inserire valore valido");
+			}
 			
 		}
 		
